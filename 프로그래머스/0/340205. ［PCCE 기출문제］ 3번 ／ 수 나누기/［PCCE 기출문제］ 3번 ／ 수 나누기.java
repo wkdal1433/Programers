@@ -6,7 +6,7 @@ public class Solution {
         int number = sc.nextInt();
         int answer = 0;
         
-        while (number > 0) {
+        for(int i=0; i<1; i++){
             answer += number % 100;
             number /= 100;
         }
